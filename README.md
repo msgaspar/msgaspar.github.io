@@ -1,3 +1,3 @@
-# Meu Portfolio
+# Meu Portfólio
 
-Este repositório contém a página do meu portfolio pessoal, onde serão apresentados todos os meus projetos desenvolvidos ao longo do tempo.
+Este repositório contém a página do meu portfólio pessoal, onde serão apresentados todos os meus projetos desenvolvidos ao longo do tempo.
