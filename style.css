@@ -1,0 +1,60 @@
+body {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Noto Sans JP', sans-serif;
+  max-width: 600px;
+  background-color: #f8fffb;
+}
+
+*::selection {
+  background: #d7ff23;
+}
+
+.title-section {
+  margin-top: 100px;
+}
+
+#profile-photo {
+  width: 150px;
+  border-radius: 50%;
+}
+
+h1 {
+  margin-bottom: 40px;
+  font-weight: 700;
+  width: fit-content;
+  background: linear-gradient(180deg,rgba(255,255,255,0) 65%, #d7ff23 65%);
+}
+
+#link-trybe, #link-trybe:hover, #link-trybe:visited {
+  color: #036b52;
+  font-weight: 700;
+  text-decoration-color: #2fc18c;
+}
+
+p:first-child {
+  margin-top: 0;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+p {
+  margin: 10px 0;
+}
+
+h3 {
+  font-size: 20px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+ul {
+  margin: 0;
+}
+
+.links > p {
+  margin-top: 0;
+}
