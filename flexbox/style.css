@@ -235,22 +235,27 @@ p {
   background-color: #f0f2f5;
   width: fit-content;
   margin: 15px 0;
-  width: fit-content;
   height: 150px;
 }
 
 .align-container div {
   flex-shrink: 0;
-  width: 70px;
-  min-height: fit-content;
+  width: 50px;
+  min-height: 50px;
   background-color: #2fc18c;
   margin: 10px;
   text-align: center;
+  font-style: italic;
   display: flex;
   align-items: center;
   justify-content: center;
   color: #034132;
   border-radius: 10%;
+}
+
+.align-container div p {
+  font-style: italic;
+  font-size: 18px;
 }
 
 .align-stretch {
@@ -271,30 +276,30 @@ p {
 
 .align-baseline {
   align-items: baseline;
+} 
+
+.item1 p {
+  margin-top: 20px;
 }
 
-.item1 {
-  font-size: 50px;
+.item2 p {
+  margin-bottom: 20px;
 }
 
-.item2 {
-  font-size: 80px;
+.item3 p {
+  margin-top: 20px;
 }
 
-.item3 {
-  font-size: 35px;
+.item4 p {
+  margin-bottom: 20px;
 }
 
-.item4 {
-  font-size: 30px;
+.item5 p {
+  margin-top: 20px;
 }
 
-.item5 {
-  font-size: 65px;
-}
-
-.item6 {
-  font-size: 20px;
+.item6 p {
+  margin-bottom: 20px;
 }
 
 .align-content-section {
